@@ -171,7 +171,7 @@ The agent graph permits only the mapped tool names. It returns a natural-languag
 
 - The chat agent cannot directly charge a customer.
 - Passwords are salted and hashed in MongoDB; sessions are signed, HTTP-only cookies.
-- Only `goutamvaishnav468@gmail.com` (the configured merchant email) receives merchant dashboard access.
+- Only `` (the configured merchant email) receives merchant dashboard access.
 - Payment requires an explicit customer action in checkout.
 - Product price, stock, and totals are recalculated from the application catalog.
 - Invalid quantities and out-of-stock products are rejected before checkout.
