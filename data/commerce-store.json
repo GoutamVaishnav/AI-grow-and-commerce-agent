@@ -1,0 +1,963 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD8461692312",
+      "status": "CONFIRMED",
+      "createdAt": "2026-09-05T07:20:46.169Z",
+      "address": {
+        "name": "Aarav Mehta",
+        "line1": "42 Market Road",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "pincode": "440001",
+        "phone": "+91 90000 00000"
+      },
+      "paymentMode": "SUCCESS",
+      "lines": [
+        {
+          "productId": 189,
+          "name": "Red Shoes",
+          "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+          "price": 2974,
+          "quantity": 1,
+          "aiQuantity": 1,
+          "addedBy": "ai",
+          "lineTotal": 2974,
+          "aiLineTotal": 2974,
+          "organicLineTotal": 0,
+          "inStock": true,
+          "stock": 7
+        },
+        {
+          "productId": 185,
+          "name": "Black & Brown Slipper",
+          "image": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/thumbnail.webp",
+          "price": 1699,
+          "quantity": 1,
+          "aiQuantity": 1,
+          "addedBy": "ai",
+          "lineTotal": 1699,
+          "aiLineTotal": 1699,
+          "organicLineTotal": 0,
+          "inStock": true,
+          "stock": 3
+        }
+      ],
+      "subtotal": 4673,
+      "organicRevenue": 0,
+      "aiGeneratedRevenue": 4673,
+      "total": 4673,
+      "customer": {
+        "id": "6a9bacd42046fff090d0c7b2",
+        "name": "Goutam Vaishnav",
+        "email": "goutamvaishnav09@gmail.com"
+      },
+      "paymentProvider": "SIMULATED",
+      "paymentId": "PAY_1788592846535",
+      "failureReason": null,
+      "updatedAt": "2026-09-05T07:20:46.538Z"
+    },
+    {
+      "orderId": "ORD6354946973",
+      "status": "CONFIRMED",
+      "createdAt": "2026-09-05T07:17:15.494Z",
+      "address": {
+        "name": "Aarav Mehta",
+        "line1": "42 Market Road",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "pincode": "440001",
+        "phone": "+91 90000 00000"
+      },
+      "paymentMode": "SUCCESS",
+      "lines": [
+        {
+          "productId": 189,
+          "name": "Red Shoes",
+          "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+          "price": 2974,
+          "quantity": 2,
+          "aiQuantity": 2,
+          "addedBy": "ai",
+          "lineTotal": 5948,
+          "aiLineTotal": 5948,
+          "organicLineTotal": 0,
+          "inStock": true,
+          "stock": 7
+        },
+        {
+          "productId": 185,
+          "name": "Black & Brown Slipper",
+          "image": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/thumbnail.webp",
+          "price": 1699,
+          "quantity": 1,
+          "aiQuantity": 1,
+          "addedBy": "ai",
+          "lineTotal": 1699,
+          "aiLineTotal": 1699,
+          "organicLineTotal": 0,
+          "inStock": true,
+          "stock": 3
+        }
+      ],
+      "subtotal": 7647,
+      "organicRevenue": 0,
+      "aiGeneratedRevenue": 7647,
+      "total": 7647,
+      "customer": {
+        "id": "6a9bacd42046fff090d0c7b2",
+        "name": "Goutam Vaishnav",
+        "email": "goutamvaishnav09@gmail.com"
+      },
+      "paymentProvider": "SIMULATED",
+      "paymentId": "PAY_1788592635855",
+      "failureReason": null,
+      "updatedAt": "2026-09-05T07:17:15.858Z"
+    },
+    {
+      "orderId": "ORD2114942509",
+      "status": "CONFIRMED",
+      "createdAt": "2026-09-05T07:10:11.494Z",
+      "address": {
+        "name": "Aarav Mehta",
+        "line1": "42 Market Road",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "pincode": "440001",
+        "phone": "+91 90000 00000"
+      },
+      "paymentMode": "SUCCESS",
+      "lines": [
+        {
+          "productId": 124,
+          "name": "iPhone X",
+          "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
+          "price": 76499,
+          "quantity": 1,
+          "aiQuantity": 0,
+          "addedBy": "customer",
+          "lineTotal": 76499,
+          "aiLineTotal": 0,
+          "organicLineTotal": 76499,
+          "inStock": true,
+          "stock": 37
+        }
+      ],
+      "subtotal": 76499,
+      "organicRevenue": 76499,
+      "aiGeneratedRevenue": 0,
+      "total": 76499,
+      "customer": {
+        "id": "6a9bacd42046fff090d0c7b2",
+        "name": "Goutam Vaishnav",
+        "email": "goutamvaishnav09@gmail.com"
+      },
+      "paymentProvider": "SIMULATED",
+      "paymentId": "PAY_1788592211880",
+      "failureReason": null,
+      "updatedAt": "2026-09-05T07:10:11.884Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "AI_1788592837404_2190",
+      "timestamp": "2026-09-05T07:20:37.404Z",
+      "status": "SUCCESS",
+      "revenueImpact": 4673,
+      "action": "CREATE_ORDER",
+      "customerMessage": "i want to pay ",
+      "reason": "Customer asked to review their order and continue to payment",
+      "input": {},
+      "result": {
+        "order": {
+          "orderId": "ORD8365804222",
+          "status": "PAYMENT_PENDING",
+          "createdAt": "2026-09-05T07:20:36.580Z",
+          "paymentMode": "SUCCESS",
+          "lines": [
+            {
+              "productId": 189,
+              "name": "Red Shoes",
+              "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+              "price": 2974,
+              "quantity": 1,
+              "aiQuantity": 1,
+              "addedBy": "ai",
+              "lineTotal": 2974,
+              "aiLineTotal": 2974,
+              "organicLineTotal": 0,
+              "inStock": true,
+              "stock": 7
+            },
+            {
+              "productId": 185,
+              "name": "Black & Brown Slipper",
+              "image": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/thumbnail.webp",
+              "price": 1699,
+              "quantity": 1,
+              "aiQuantity": 1,
+              "addedBy": "ai",
+              "lineTotal": 1699,
+              "aiLineTotal": 1699,
+              "organicLineTotal": 0,
+              "inStock": true,
+              "stock": 3
+            }
+          ],
+          "subtotal": 4673,
+          "organicRevenue": 0,
+          "aiGeneratedRevenue": 4673,
+          "total": 4673
+        },
+        "checkoutUrl": "/checkout",
+        "approvalRequired": true,
+        "productCount": 0,
+        "suggestionCount": 0
+      }
+    },
+    {
+      "id": "AI_1788592800976_2176",
+      "timestamp": "2026-09-05T07:20:00.976Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "RECOMMENDATION_ACCEPTED",
+      "reason": "Customer accepted an AI recommendation",
+      "input": {
+        "recommendationId": "REC_1788592791833_189",
+        "productId": 189
+      },
+      "result": {
+        "product": "Red Shoes"
+      }
+    },
+    {
+      "id": "AI_1788592792656_4839",
+      "timestamp": "2026-09-05T07:19:52.656Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "I need running shoes under ₹4000 for daily running.",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": "i need running shoes under ₹4000 for daily running.",
+        "maxPrice": 4000
+      },
+      "result": {
+        "count": 3,
+        "recommendation": {
+          "id": "REC_1788592791833_189",
+          "product": {
+            "id": 189,
+            "name": "Red Shoes",
+            "category": "Womens Shoes",
+            "brand": "Fashion Express",
+            "price": 2974,
+            "originalPrice": 3627,
+            "discount": 18,
+            "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+            "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+            "rating": 3.25,
+            "reviews": 3,
+            "stock": 7,
+            "tags": [
+              "womens-shoes",
+              "footwear",
+              "women's shoes",
+              "red",
+              "shoes"
+            ],
+            "attributes": {
+              "sku": "WOM-FAS-SHO-189",
+              "weight": "10 kg",
+              "dimensions": "15.21 × 11.62 × 22.63",
+              "warranty": "No warranty",
+              "shipping": "Ships in 1 month",
+              "availability": "Low Stock",
+              "minimumOrderQuantity": 8
+            },
+            "relatedProducts": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 3.25 rating, ₹2974, and currently in stock."
+        },
+        "productCount": 3,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592679101_9887",
+      "timestamp": "2026-09-05T07:17:59.101Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "I need running shoes under ₹4000 for daily running.",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": "i need running shoes under ₹4000 for daily running.",
+        "maxPrice": 4000
+      },
+      "result": {
+        "count": 3,
+        "recommendation": {
+          "id": "REC_1788592678480_189",
+          "product": {
+            "id": 189,
+            "name": "Red Shoes",
+            "category": "Womens Shoes",
+            "brand": "Fashion Express",
+            "price": 2974,
+            "originalPrice": 3627,
+            "discount": 18,
+            "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+            "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+            "rating": 3.25,
+            "reviews": 3,
+            "stock": 7,
+            "tags": [
+              "womens-shoes",
+              "footwear",
+              "women's shoes",
+              "red",
+              "shoes"
+            ],
+            "attributes": {
+              "sku": "WOM-FAS-SHO-189",
+              "weight": "10 kg",
+              "dimensions": "15.21 × 11.62 × 22.63",
+              "warranty": "No warranty",
+              "shipping": "Ships in 1 month",
+              "availability": "Low Stock",
+              "minimumOrderQuantity": 8
+            },
+            "relatedProducts": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 3.25 rating, ₹2974, and currently in stock."
+        },
+        "productCount": 3,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592621133_8822",
+      "timestamp": "2026-09-05T07:17:01.133Z",
+      "status": "SUCCESS",
+      "revenueImpact": 7647,
+      "action": "CREATE_ORDER",
+      "customerMessage": "i want to pay ",
+      "reason": "Customer asked to review their order and continue to payment",
+      "input": {},
+      "result": {
+        "order": {
+          "orderId": "ORD6204155542",
+          "status": "PAYMENT_PENDING",
+          "createdAt": "2026-09-05T07:17:00.415Z",
+          "paymentMode": "SUCCESS",
+          "lines": [
+            {
+              "productId": 189,
+              "name": "Red Shoes",
+              "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+              "price": 2974,
+              "quantity": 2,
+              "aiQuantity": 2,
+              "addedBy": "ai",
+              "lineTotal": 5948,
+              "aiLineTotal": 5948,
+              "organicLineTotal": 0,
+              "inStock": true,
+              "stock": 7
+            },
+            {
+              "productId": 185,
+              "name": "Black & Brown Slipper",
+              "image": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/thumbnail.webp",
+              "price": 1699,
+              "quantity": 1,
+              "aiQuantity": 1,
+              "addedBy": "ai",
+              "lineTotal": 1699,
+              "aiLineTotal": 1699,
+              "organicLineTotal": 0,
+              "inStock": true,
+              "stock": 3
+            }
+          ],
+          "subtotal": 7647,
+          "organicRevenue": 0,
+          "aiGeneratedRevenue": 7647,
+          "total": 7647
+        },
+        "checkoutUrl": "/checkout",
+        "approvalRequired": true,
+        "productCount": 0,
+        "suggestionCount": 0
+      }
+    },
+    {
+      "id": "AI_1788592606595_6599",
+      "timestamp": "2026-09-05T07:16:46.595Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "i want to buy ",
+      "reason": "General product search from free text",
+      "input": {
+        "query": "i want to buy "
+      },
+      "result": {
+        "count": 42,
+        "recommendation": {
+          "id": "REC_1788592605975_80",
+          "product": {
+            "id": 80,
+            "name": "Huawei Matebook X Pro",
+            "category": "Laptops",
+            "brand": "Huawei",
+            "price": 118999,
+            "originalPrice": 130768,
+            "discount": 9,
+            "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+            "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+            "rating": 4.98,
+            "reviews": 3,
+            "stock": 75,
+            "tags": [
+              "laptops",
+              "huawei",
+              "matebook",
+              "x",
+              "pro"
+            ],
+            "attributes": {
+              "sku": "LAP-HUA-HUA-080",
+              "weight": "9 kg",
+              "dimensions": "18.21 × 22.83 × 17.26",
+              "warranty": "No warranty",
+              "shipping": "Ships overnight",
+              "availability": "In Stock",
+              "minimumOrderQuantity": 1
+            },
+            "relatedProducts": [
+              78,
+              79,
+              81,
+              82
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 4.98 rating, ₹118999, and currently in stock."
+        },
+        "productCount": 8,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592561018_5409",
+      "timestamp": "2026-09-05T07:16:01.018Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "RECOMMENDATION_ACCEPTED",
+      "reason": "Customer accepted an AI recommendation",
+      "input": {
+        "recommendationId": "REC_1788592558769_189",
+        "productId": 189
+      },
+      "result": {
+        "product": "Red Shoes"
+      }
+    },
+    {
+      "id": "AI_1788592559293_8341",
+      "timestamp": "2026-09-05T07:15:59.293Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "I need running shoes under ₹4000 for daily running.",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": "i need running shoes under ₹4000 for daily running.",
+        "maxPrice": 4000
+      },
+      "result": {
+        "count": 3,
+        "recommendation": {
+          "id": "REC_1788592558769_189",
+          "product": {
+            "id": 189,
+            "name": "Red Shoes",
+            "category": "Womens Shoes",
+            "brand": "Fashion Express",
+            "price": 2974,
+            "originalPrice": 3627,
+            "discount": 18,
+            "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+            "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+            "rating": 3.25,
+            "reviews": 3,
+            "stock": 7,
+            "tags": [
+              "womens-shoes",
+              "footwear",
+              "women's shoes",
+              "red",
+              "shoes"
+            ],
+            "attributes": {
+              "sku": "WOM-FAS-SHO-189",
+              "weight": "10 kg",
+              "dimensions": "15.21 × 11.62 × 22.63",
+              "warranty": "No warranty",
+              "shipping": "Ships in 1 month",
+              "availability": "Low Stock",
+              "minimumOrderQuantity": 8
+            },
+            "relatedProducts": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 3.25 rating, ₹2974, and currently in stock."
+        },
+        "productCount": 3,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592535629_2098",
+      "timestamp": "2026-09-05T07:15:35.629Z",
+      "status": "SUCCESS",
+      "revenueImpact": 2974,
+      "action": "CREATE_ORDER",
+      "customerMessage": "i want to pay",
+      "reason": "Customer asked to review their order and continue to payment",
+      "input": {},
+      "result": {
+        "order": {
+          "orderId": "ORD5349119224",
+          "status": "PAYMENT_PENDING",
+          "createdAt": "2026-09-05T07:15:34.911Z",
+          "paymentMode": "SUCCESS",
+          "lines": [
+            {
+              "productId": 189,
+              "name": "Red Shoes",
+              "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+              "price": 2974,
+              "quantity": 1,
+              "aiQuantity": 1,
+              "addedBy": "ai",
+              "lineTotal": 2974,
+              "aiLineTotal": 2974,
+              "organicLineTotal": 0,
+              "inStock": true,
+              "stock": 7
+            }
+          ],
+          "subtotal": 2974,
+          "organicRevenue": 0,
+          "aiGeneratedRevenue": 2974,
+          "total": 2974
+        },
+        "checkoutUrl": "/checkout",
+        "approvalRequired": true,
+        "productCount": 0,
+        "suggestionCount": 0
+      }
+    },
+    {
+      "id": "AI_1788592524685_2907",
+      "timestamp": "2026-09-05T07:15:24.685Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "i want my Cart information",
+      "reason": "General product search from free text",
+      "input": {
+        "query": "i want my cart information"
+      },
+      "result": {
+        "count": 0,
+        "recommendation": null,
+        "productCount": 0,
+        "suggestionCount": 0
+      }
+    },
+    {
+      "id": "AI_1788592505216_1764",
+      "timestamp": "2026-09-05T07:15:05.216Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "give me my cart info",
+      "reason": "Searching the catalog for the customer's free-text request",
+      "input": {
+        "query": "give me my cart info"
+      },
+      "result": {
+        "count": 0,
+        "recommendation": null,
+        "productCount": 0,
+        "suggestionCount": 0
+      }
+    },
+    {
+      "id": "AI_1788592484213_6146",
+      "timestamp": "2026-09-05T07:14:44.213Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "RECOMMENDATION_ACCEPTED",
+      "reason": "Customer accepted an AI recommendation",
+      "input": {
+        "recommendationId": "REC_1788592469071_189",
+        "productId": 189
+      },
+      "result": {
+        "product": "Red Shoes"
+      }
+    },
+    {
+      "id": "AI_1788592469888_6760",
+      "timestamp": "2026-09-05T07:14:29.888Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "I need running shoes under ₹4000 for daily running.",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": "i need running shoes under ₹4000 for daily running.",
+        "maxPrice": 4000
+      },
+      "result": {
+        "count": 3,
+        "recommendation": {
+          "id": "REC_1788592469071_189",
+          "product": {
+            "id": 189,
+            "name": "Red Shoes",
+            "category": "Womens Shoes",
+            "brand": "Fashion Express",
+            "price": 2974,
+            "originalPrice": 3627,
+            "discount": 18,
+            "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+            "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+            "rating": 3.25,
+            "reviews": 3,
+            "stock": 7,
+            "tags": [
+              "womens-shoes",
+              "footwear",
+              "women's shoes",
+              "red",
+              "shoes"
+            ],
+            "attributes": {
+              "sku": "WOM-FAS-SHO-189",
+              "weight": "10 kg",
+              "dimensions": "15.21 × 11.62 × 22.63",
+              "warranty": "No warranty",
+              "shipping": "Ships in 1 month",
+              "availability": "Low Stock",
+              "minimumOrderQuantity": 8
+            },
+            "relatedProducts": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 3.25 rating, ₹2974, and currently in stock."
+        },
+        "productCount": 3,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592347522_3029",
+      "timestamp": "2026-09-05T07:12:27.522Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "I need running shoes under ₹4000 for daily running.",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": "i need running shoes under ₹4000 for daily running.",
+        "maxPrice": 4000
+      },
+      "result": {
+        "count": 3,
+        "recommendation": {
+          "id": "REC_1788592346908_189",
+          "product": {
+            "id": 189,
+            "name": "Red Shoes",
+            "category": "Womens Shoes",
+            "brand": "Fashion Express",
+            "price": 2974,
+            "originalPrice": 3627,
+            "discount": 18,
+            "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+            "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+            "rating": 3.25,
+            "reviews": 3,
+            "stock": 7,
+            "tags": [
+              "womens-shoes",
+              "footwear",
+              "women's shoes",
+              "red",
+              "shoes"
+            ],
+            "attributes": {
+              "sku": "WOM-FAS-SHO-189",
+              "weight": "10 kg",
+              "dimensions": "15.21 × 11.62 × 22.63",
+              "warranty": "No warranty",
+              "shipping": "Ships in 1 month",
+              "availability": "Low Stock",
+              "minimumOrderQuantity": 8
+            },
+            "relatedProducts": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 3.25 rating, ₹2974, and currently in stock."
+        },
+        "productCount": 3,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592317109_9514",
+      "timestamp": "2026-09-05T07:11:57.109Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "i want  to but laptop",
+      "reason": "General product search from free text",
+      "input": {
+        "query": "i want  to but laptop"
+      },
+      "result": {
+        "count": 43,
+        "recommendation": {
+          "id": "REC_1788592316557_80",
+          "product": {
+            "id": 80,
+            "name": "Huawei Matebook X Pro",
+            "category": "Laptops",
+            "brand": "Huawei",
+            "price": 118999,
+            "originalPrice": 130768,
+            "discount": 9,
+            "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+            "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+            "rating": 4.98,
+            "reviews": 3,
+            "stock": 75,
+            "tags": [
+              "laptops",
+              "huawei",
+              "matebook",
+              "x",
+              "pro"
+            ],
+            "attributes": {
+              "sku": "LAP-HUA-HUA-080",
+              "weight": "9 kg",
+              "dimensions": "18.21 × 22.83 × 17.26",
+              "warranty": "No warranty",
+              "shipping": "Ships overnight",
+              "availability": "In Stock",
+              "minimumOrderQuantity": 1
+            },
+            "relatedProducts": [
+              78,
+              79,
+              81,
+              82
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 4.98 rating, ₹118999, and currently in stock."
+        },
+        "productCount": 8,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592296323_8806",
+      "timestamp": "2026-09-05T07:11:36.323Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": " i want to buy iphone",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": " i want to buy ismartphone"
+      },
+      "result": {
+        "count": 42,
+        "recommendation": {
+          "id": "REC_1788592295690_80",
+          "product": {
+            "id": 80,
+            "name": "Huawei Matebook X Pro",
+            "category": "Laptops",
+            "brand": "Huawei",
+            "price": 118999,
+            "originalPrice": 130768,
+            "discount": 9,
+            "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+            "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+            "rating": 4.98,
+            "reviews": 3,
+            "stock": 75,
+            "tags": [
+              "laptops",
+              "huawei",
+              "matebook",
+              "x",
+              "pro"
+            ],
+            "attributes": {
+              "sku": "LAP-HUA-HUA-080",
+              "weight": "9 kg",
+              "dimensions": "18.21 × 22.83 × 17.26",
+              "warranty": "No warranty",
+              "shipping": "Ships overnight",
+              "availability": "In Stock",
+              "minimumOrderQuantity": 1
+            },
+            "relatedProducts": [
+              78,
+              79,
+              81,
+              82
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 4.98 rating, ₹118999, and currently in stock."
+        },
+        "productCount": 8,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592255566_6272",
+      "timestamp": "2026-09-05T07:10:55.566Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "I need running shoes under ₹4000 for daily running.",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": "i need running shoes under ₹4000 for daily running.",
+        "maxPrice": 4000
+      },
+      "result": {
+        "count": 3,
+        "recommendation": {
+          "id": "REC_1788592254653_189",
+          "product": {
+            "id": 189,
+            "name": "Red Shoes",
+            "category": "Womens Shoes",
+            "brand": "Fashion Express",
+            "price": 2974,
+            "originalPrice": 3627,
+            "discount": 18,
+            "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+            "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+            "rating": 3.25,
+            "reviews": 3,
+            "stock": 7,
+            "tags": [
+              "womens-shoes",
+              "footwear",
+              "women's shoes",
+              "red",
+              "shoes"
+            ],
+            "attributes": {
+              "sku": "WOM-FAS-SHO-189",
+              "weight": "10 kg",
+              "dimensions": "15.21 × 11.62 × 22.63",
+              "warranty": "No warranty",
+              "shipping": "Ships in 1 month",
+              "availability": "Low Stock",
+              "minimumOrderQuantity": 8
+            },
+            "relatedProducts": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "source": "DummyJSON"
+          },
+          "reason": "Best match: 3.25 rating, ₹2974, and currently in stock."
+        },
+        "productCount": 3,
+        "suggestionCount": 2
+      }
+    },
+    {
+      "id": "AI_1788592246144_6666",
+      "timestamp": "2026-09-05T07:10:46.144Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "iphonex",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": "ismartphonex"
+      },
+      "result": {
+        "count": 0,
+        "recommendation": null,
+        "productCount": 0,
+        "suggestionCount": 0
+      }
+    },
+    {
+      "id": "AI_1788592233021_5208",
+      "timestamp": "2026-09-05T07:10:33.021Z",
+      "status": "SUCCESS",
+      "revenueImpact": 0,
+      "action": "SEARCH_PRODUCT",
+      "customerMessage": "i need a iphone",
+      "reason": "Understood intent from product/budget keywords",
+      "input": {
+        "query": "i need a ismartphone"
+      },
+      "result": {
+        "count": 0,
+        "recommendation": null,
+        "productCount": 0,
+        "suggestionCount": 0
+      }
+    }
+  ],
+  "paymentEvents": []
+}
