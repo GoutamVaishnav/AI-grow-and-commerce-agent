@@ -10,10 +10,10 @@ Traditional ecommerce is designed for people to browse screens, filters, and pro
 
 ShopAgent AI is an AI-native ecommerce platform where a shopping agent understands customer intent, searches the catalog, recommends products, suggests complementary items, manages the cart, and creates an order summary.
 
-~~~text
+```text
 AI Buyer -> AI Agent -> AI-readable Catalog -> Product Discovery
 -> Recommendation -> Upsell -> Cart -> Checkout -> Payment -> Order -> Merchant
-~~~
+```
 
 The same catalog, cart calculations, and order logic are used for both the human storefront and the external AI-buyer APIs.
 
@@ -41,13 +41,13 @@ This is not a storefront with a chatbot added on top. The AI performs bounded co
 
 Each cart line records how much quantity was added through AI assistance versus directly by the shopper. For example:
 
-~~~text
+```text
 Original cart: INR 3,999
 AI upsell:     INR   499
 Final cart:    INR 4,498
 
 AI-generated revenue: INR 499
-~~~
+```
 
 After payment succeeds, the confirmed order stores the organic and AI-generated split. The merchant dashboard calculates AI revenue, AI upsells, average order value, and AI conversion from those saved confirmed orders.
 
@@ -86,7 +86,7 @@ When **RAZORPAY_KEY_ID** and **RAZORPAY_KEY_SECRET** are configured, the app cre
 
 ## 9. Architecture
 
-~~~mermaid
+```mermaid
 flowchart LR
     Customer[Customer or AI Buyer] --> NextJS[Next.js Storefront and APIs]
     NextJS --> Agent[AI Agent]
@@ -100,11 +100,11 @@ flowchart LR
     Orders --> Merchant[Merchant Dashboard]
     Agent --> Activity[AI Activity Store]
     Activity --> Merchant
-~~~
+```
 
 ## 10. Project Structure
 
-~~~text
+```text
 app/
   ai-shopping/          Conversational shopping page
   cart/ checkout/       Cart and customer-approved checkout pages
@@ -116,18 +116,18 @@ components/             Storefront, AI chat, cart, payment, and merchant UI
 lib/                    Catalog, cart, orders, payment, storage, and metrics helpers
 data/                   DummyJSON-derived catalog and local commerce store
 scripts/                Catalog generator
-~~~
+```
 
 ## 11. Setup & Run
 
 Requirements: Node.js 18+ and npm.
 
-~~~powershell
+```powershell
 npm install
 Copy-Item .env.local.example .env.local
 npm run seed
 npm run dev
-~~~
+```
 
 Open http://localhost:3000.
 
@@ -135,7 +135,7 @@ Open http://localhost:3000.
 
 All environment variables are optional for the local demo:
 
-~~~env
+```env
 # Optional Grok integration. Without it, the rule-based fallback is used.
 XAI_API_KEY=
 XAI_MODEL=grok-2-latest
@@ -151,8 +151,8 @@ MONGODB_DB=shopagent_ai
 AUTH_SECRET=
 
 # This account is assigned the merchant role. Other accounts are standard users.
-MERCHANT_EMAIL=goutamvaishnav468@gmail.com
-~~~
+MERCHANT_EMAIL=
+```
 
 Do not commit **.env.local** or expose any secret in client-side code.
 
